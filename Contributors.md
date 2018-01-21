@@ -1,2 +1,3 @@
 - [Ratan Sunder Parai](https://github.com/ratanparai)
 - [Md. Solaiman Shohag](https://github.com/cseshohag)
+- [Md. Aftab Uddin Kajal](https://github.com/kajal-alpha)
