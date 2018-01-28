@@ -1,7 +1,11 @@
-# Steps
+# How to contribute
 
-techcombd remote name : upstream
-your remote name: origin
+Before going deep into the steps please remember you **DO NOT NEED** to follow the remote name we used. You can use anything you want. You need to change your command depending on the name you choose.
+
+- **upstream** - Remote name of `techcomdbd`'s repository.
+- **origin** - Remote name of your forked repository.
+
+## Steps for doing a pull request
 
 1. Fork the repository
 
@@ -84,6 +88,12 @@ Your branch is behind 'upstream/master' by 14 commits, and can be fast-forwarded
 nothing to commit, working tree clean
 ```
 
+Pull changes from upstream (if there is any) -
+
+```
+git pull
+```
+
 Now push change to your forked repository(origin)-
 
 ```
@@ -92,13 +102,13 @@ git push origin master
 
 To know more read [Git Branching - Remote Branches](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches)
 
-4. create new branch. follow standard. not mendatory
+4. create new branch. follow standard **(Not Mandatory)**
 
 ```
 git checkout -b feature/add-ratanparai
 ```
 
-6. link the branch with origin remote's branch
+6. Push the branch to your origin(forked) repository while linking the branch with origin's remote branch
 
 ```
 git push -u origin feature/add-ratanparai
@@ -118,15 +128,24 @@ git commit -m "write your commit message here"
 git push
 ```
 
+10. Go to your url page you should see something like-
+
+![pull-request](images/compareandpull.png)
+
+Click **Compare & pull request** to start the `pull request` process. In the next page give your pull request a easy to understand title and clear description what you are trying add to the project.
+
+## WORK IN PROGRESS
+> **NOTE:** Bellow this line is work in progress documentation.
+
+
 10. rebase upstream changes to your current brunch
 - `git checkout master`
 - `git pull`
-- `git checkout feature/add-name`
+- `git checkout feature/[your-branch-name]`
 - `git rebase master`
-11. `git fetch upstream`
-12. `git rebase upstream/master`
-13. fix merge conflict if there is any.
-14. push changes to origin brunch
+
+11. If there is any conflict resolve it.
+
 10. go to your forked location `github.com/yourname/first-contribution`.
 11. click `create pull request`
 12. refresh the page and sign CLA (contributor's license aggrement)
