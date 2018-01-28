@@ -1,15 +1,25 @@
 # How to contribute
 
-Before going deep into the steps please remember you **DO NOT NEED** to follow the remote name we used. You can use anything you want. You need to change your command depending on the name you choose.
+Before going deep into the steps of how to contribute please remember you **DO NOT NEED** to follow the remote names we used. You can use anything you want. You need to change your command depending on the name you choose. In this tutorial we use-
 
 - **upstream** - Remote name of `techcomdbd`'s repository.
 - **origin** - Remote name of your forked repository.
 
 ## Steps for doing a pull request
 
+Here is a high level diagram of relations between remote and local repositories-
+
+![high level diagram of pull request](images/remote.png)
+
 1. Fork the repository
 
-2. Clone the forked repository to your computer
+![fork](images/fork.png)
+
+2. Get the link of your forked git repository repository for clone-
+
+![clone](images/clone.png)
+
+Clone the forked repository to your computer using the following command-
 
 ```
 git clone [your_forked_repository_url/ssh_link]
@@ -27,7 +37,7 @@ git clone git@github.com:ratanparai/first-contributions.git
 cd first-contributions
 ```
 
-3. add upstream remote-
+4. add upstream remote-
 
 ```
 git remote add upstream [upstream_url]
@@ -39,7 +49,7 @@ Example: for our first-contributions repository-
 git remote add upstream https://github.com/techcombd/first-contributions.git
 ```
 
-Check if the upstream remote added succesfully-
+Check if the upstream remote was added successfully-
 
 ```
 git remote -v
@@ -54,7 +64,7 @@ upstream        https://github.com/techcombd/first-contributions.git (fetch)
 upstream        https://github.com/techcombd/first-contributions.git (push)
 ```
 
-4. fetch upstream branch-
+5. fetch upstream branch-
 
 ```
 git fetch upstream
@@ -66,7 +76,7 @@ git fetch upstream
 git branch -a
 ```
 
-3. set upstream for master branch
+6. set upstream for master branch
 
 ```
 git branch -u upstream/master
@@ -102,55 +112,80 @@ git push origin master
 
 To know more read [Git Branching - Remote Branches](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches)
 
-4. create new branch. follow standard **(Not Mandatory)**
+7. create new branch. follow standard **(Not Mandatory)**
 
 ```
 git checkout -b feature/add-ratanparai
 ```
 
-6. Push the branch to your origin(forked) repository while linking the branch with origin's remote branch
+8. Push the branch to your origin(forked) repository while linking the branch with origin's remote branch
 
 ```
 git push -u origin feature/add-ratanparai
 ```
 
-7. made changes to files (do what you want to do for the work)
-8. `add` and `commit` changes
+9. made changes to files (do what you want to do for the work)
+10. `add` and `commit` changes
 
 ```
 git add .
 git commit -m "write your commit message here"
 ```
 
-9. push changes
+11. push changes
 
 ```
 git push
 ```
 
-10. Go to your url page you should see something like-
+12. Go to your forked repository or upstream repository URL, example [techcombd/firsts-contribution](https://github.com/ratanparai/first-contributions) you should see something like-
 
 ![pull-request](images/compareandpull.png)
 
 Click **Compare & pull request** to start the `pull request` process. In the next page give your pull request a easy to understand title and clear description what you are trying add to the project.
 
-## WORK IN PROGRESS
-> **NOTE:** Bellow this line is work in progress documentation.
+
+## How to keep Up-to-Date with the upstream repository
+
+It is a good practice to pull any changes from upstream and merge them to your working branch everyday before you start working. To do this at first checkout to master branch-
+
+```
+git checkout master
+```
+
+Pull changes from upstream-
+
+```
+git pull upstream
+```
+
+Push changes to your origin master-
+
+```
+git push origin
+```
+
+checkout to your working branch-
+
+```
+git checkout [your_working_branch_name]
+```
+
+rebase changes from the master branch-
+
+```
+git rebase master
+```
+
+If there is no conflict then you are good continue your work. But if there is `merge conflict` error, don't be alarmed. you can easily resolve the merge conflict manually with your editor of choice or using `mergetool`. There is a good resource about resolving merge conflict [here](https://gist.github.com/karenyyng/f19ff75c60f18b4b8149)
 
 
-10. rebase upstream changes to your current brunch
-- `git checkout master`
-- `git pull`
-- `git checkout feature/[your-branch-name]`
-- `git rebase master`
+## Finishing touch
 
-11. If there is any conflict resolve it.
+- Be **Patience**. Read the documentation carefully and wait for Maintainer's response of your pull request. Don't think your pull request will be get merged quickly or merged at all. Respect the decision of others.
 
-10. go to your forked location `github.com/yourname/first-contribution`.
-11. click `create pull request`
-12. refresh the page and sign CLA (contributor's license aggrement)
-13. wait for maintainer's reply
-14. if the maintainer need any change then do so in your working branch
-15. add, commit, and push changes
-16. wait for maintainer's response
-17. if maintainer says everything okay. and merge the changes then delete your brunch
+- If you need to update `content` of the pull request **you do not** need to create another pull request. Just push changes to the branch of your personal(origin) repository. The changes will show up in your pull request.
+
+- **ALWAYS READ AND FOLLOW THE DOCUMENTATION OF THE REPOSITORY YOU ARE CONTRIBUTING**. They may have special requirement or rules, follow them.
+
+- if maintainer merge the changes then you can safely delete the branch. To work in new content, create a new branch and work on that branch. You should always create different branch for each pull request.
