@@ -145,6 +145,30 @@ git push
 Click **Compare & pull request** to start the `pull request` process. In the next page give your pull request a easy to understand title and clear description what you are trying add to the project.
 
 
+## Your next contribution
+Good job. You have successfully contributed for the first time to a Open Source Project Repository. Now you want to contribute more to the same project you have `forked`, `cloned` and `contributed`! Just follow those steps-
+
+
+1. Checkout to `master` branch -
+
+```bash
+git checkout master
+```
+
+2. Pull changes from `upstream` remote-
+
+```bash
+git pull upstream
+```
+
+3. Push changes to `origin` remote-
+
+```bash
+git push origin
+```
+
+4. Create new branch. Follow from **Step 7** of [Steps for doing a pull request](#steps-for-doing-a-pull-request)
+
 ## How to keep Up-to-Date with the upstream repository
 
 It is a good practice to pull any changes from upstream and merge them to your working branch everyday before you start working. To do this at first checkout to master branch-
