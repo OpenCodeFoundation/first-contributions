@@ -3,5 +3,6 @@
 - [Md. Aftab Uddin Kajal](https://github.com/kajal-alpha)
 - [Md. Mahedee Hasan](https://github.com/mahedee)
 - [Mahfuza Humayra Mohona](https://github.com/mhmohona)
+- [MD Shohag Mia](https://github.com/mdshohagmia)
 - [Kamrul Hasan](https://github.com/kamruldotnet)
 - [Mohammad Rakibul Hasan](https://github.com/ahmedRakib)
