@@ -2,7 +2,7 @@
 
 Before going deep into the steps of how to contribute please remember you **DO NOT NEED** to follow the remote names we used. You can use anything you want. You need to change your command depending on the name you choose. In this tutorial we use-
 
-- **upstream** - Remote name of `techcomdbd`'s repository.
+- **upstream** - Remote name of `OpenCodeFoundation`'s repository.
 - **origin** - Remote name of your forked repository.
 
 ## Steps for doing a pull request
@@ -46,7 +46,7 @@ git remote add upstream [upstream_url]
 Example: for our first-contributions repository-
 
 ```
-git remote add upstream https://github.com/techcombd/first-contributions.git
+git remote add upstream git@github.com:OpenCodeFoundation/first-contributions.git
 ```
 
 Check if the upstream remote was added successfully-
@@ -60,8 +60,8 @@ You should see something like this-
 ```
 origin  git@github.com:ratanparai/first-contributions.git (fetch)
 origin  git@github.com:ratanparai/first-contributions.git (push)
-upstream        https://github.com/techcombd/first-contributions.git (fetch)
-upstream        https://github.com/techcombd/first-contributions.git (push)
+upstream        git@github.com:OpenCodeFoundation/first-contributions.git (fetch)
+upstream        git@github.com:OpenCodeFoundation/first-contributions.git (push)
 ```
 
 5. fetch upstream branch-
@@ -138,7 +138,7 @@ git commit -m "write your commit message here"
 git push
 ```
 
-12. Go to your forked repository or upstream repository URL, example [techcombd/firsts-contribution](https://github.com/ratanparai/first-contributions) you should see something like-
+12. Go to your forked repository or upstream repository URL, example [OpenCodeFoundation/first-contributions](https://github.com/ratanparai/first-contributions) you should see something like-
 
 ![pull-request](images/compareandpull.png)
 
