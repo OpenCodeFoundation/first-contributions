@@ -210,6 +210,6 @@ If there is no conflict then you are good continue your work. But if there is `m
 
 - If you need to update `content` of the pull request **you do not** need to create another pull request. Just push changes to the branch of your personal(origin) repository. The changes will show up in your pull request.
 
-- **ALWAYS READ AND FOLLOW THE DOCUMENTATION OF THE REPOSITORY YOU ARE CONTRIBUTING**. They may have special requirement or rules, follow them.
+- **ALWAYS READ AND FOLLOW THE DOCUMENTATION OF THE REPOSITORY YOU ARE CONTRIBUTING**. They may have special requirement or rules. Follow them.
 
 - if maintainer merge the changes then you can safely delete the branch. To work in new content, create a new branch and work on that branch. You should always create different branch for each pull request.
