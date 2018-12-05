@@ -11,4 +11,4 @@ You can view the contributors in this repository from [here](Contributors.md)
 
 ### Happy Coding ❤
 
-May the Code be with you all ❤
+❤ May the Code be with you all ❤
