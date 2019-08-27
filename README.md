@@ -6,6 +6,10 @@ Udacity Course — very in-detail and fine https://classroom.udacity.com/cou
 
 > **Please Note:** Don't be shy thinking that you may make mistake. We are here to help you learn.
 
+# Documents
+
+To contribute check out [Contribution Guide](CONTRIBUTING.md)
+
 # List of Contributors
 You can view the contributors in this repository from [here](Contributors.md)
 
