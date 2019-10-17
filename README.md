@@ -10,6 +10,8 @@ Udacity Course — very in-detail and fine https://classroom.udacity.com/cou
 
 To contribute check out [Contribution Guide](CONTRIBUTING.md)
 
+Here's a Markdown Cheatsheet for those of you who're getting started : [Markdown Cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 # List of Contributors
 You can view the contributors in this repository from [here](Contributors.md)
 
