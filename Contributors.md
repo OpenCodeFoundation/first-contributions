@@ -16,3 +16,4 @@ Thanks goes to all of these wonderful people, who have helped first contribution
 - [Muhammad Aliyul Murtadlo](https://github.com/mmdiyul)
 - [Naman Jain](https://github.com/namanjain323232)
 - [Sk. Abu Shahed](https://github.com/skshahed)
+- [Flavia](https://github.com/flaviamedici)
