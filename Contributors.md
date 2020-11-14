@@ -19,4 +19,5 @@ Thanks goes to all of these wonderful people, who have helped first contribution
 - [Sk. Abu Shahed](https://github.com/skshahed)
 - [Flavia](https://github.com/flaviamedici)
 - [Anjum Rashid](https://github.com/bijoy26)
+- [Ankita Mandal](https://github.com/GoGi2712)
 - [Santanu Biswas](https://github.com/SantanuxD)
