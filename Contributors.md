@@ -22,4 +22,7 @@ Thanks goes to all of these wonderful people, who have helped first contribution
 - [Ankita Mandal](https://github.com/GoGi2712)
 - [Santanu Biswas](https://github.com/SantanuxD)
 - [Maxi H](https://github.com/maxihcoza/)
+- [Ashraful Islam](https://github.com/ashrafulais)
+- [Shams Ud Doula Sohan](https://github.com/sohan093007)
+- [Nitai Chandra Banik](https://github.com/NitaiBanik)
 - [Shahanaz Sultana](https://github.com/shahanazdev19)
