@@ -4,7 +4,7 @@ Thanks goes to all of these wonderful people, who have helped first contribution
 
 - [Ratan Sunder Parai](https://github.com/ratanparai)
 - [Md. Solaiman Shohag](https://github.com/cseshohag)
-- [Md. Aftab Uddin Kajal](https://github.com/iamkajal)
+- [Md. Aftab Uddin Kajal](https://github.com/aftabkajal)
 - [Md. Mahedee Hasan](https://github.com/mahedee)
 - [Dalida Saad](https://github.com/saaddalida)
 - [Mahfuza Humayra Mohona](https://github.com/mhmohona)
