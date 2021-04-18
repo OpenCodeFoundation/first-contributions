@@ -27,3 +27,4 @@ Thanks goes to all of these wonderful people, who have helped first contribution
 - [Nitai Chandra Banik](https://github.com/NitaiBanik)
 - [Shahanaz Sultana](https://github.com/shahanazdev19)
 - [Mili Das](https://github.com/MiliDas)
+- [H.M.Zakaria](https://github.com/Hasanzakaria)
