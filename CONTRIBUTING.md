@@ -213,3 +213,5 @@ If there is no conflict then you are good continue your work. But if there is `m
 - **ALWAYS READ AND FOLLOW THE DOCUMENTATION OF THE REPOSITORY YOU ARE CONTRIBUTING**. They may have special requirement or rules. Follow them.
 
 - if maintainer merge the changes then you can safely delete the branch. To work in new content, create a new branch and work on that branch. You should always create different branch for each pull request.
+its been a great way to contribute to open source for the first time am do did it yeahhhh!!!!!!!!
+
